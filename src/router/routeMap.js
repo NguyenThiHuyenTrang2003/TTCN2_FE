@@ -18,21 +18,6 @@ export const routeMap = [
     ],
   },
   {
-    label: 'Oder',
-    icon: (
-      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" width="20" height="16">
-        <g fill="currentColor">
-          <path d="M4.5 5A2.5 2.5 0 1 1 4.499.001 2.5 2.5 0 0 1 4.5 5zM16 5a2.5 2.5 0 1 1-.001-4.999A2.5 2.5 0 0 1 16 5zM0 9.335A3.336 3.336 0 0 1 3.335 6H4.67c.498 0 .969.11 1.394.302a3.999 3.999 0 0 0 1.294 3.696H.666A.666.666 0 0 1 0 9.335zM12.666 10h-.021a3.992 3.992 0 0 0 1.294-3.696 3.287 3.287 0 0 1 1.394-.302h1.335a3.336 3.336 0 0 1 3.335 3.335c0 .369-.3.666-.666.666h-6.67zm.335-3A3 3 0 1 1 7 6.999 3 3 0 0 1 13 7zM4 15.166A4.168 4.168 0 0 1 8.166 11h3.669a4.168 4.168 0 0 1 4.166 4.166.834.834 0 0 1-.834.834H4.834A.834.834 0 0 1 4 15.166z"/>
-        </g>
-      </svg>
-    ),
-    path: '/oder',
-    routeActive: ['/oder'],
-    permissions: [
-      'oder_page',
-    ]
-  },
-  {
     label: 'Table Management',
     icon: (
       <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" width="20" height="16">
@@ -45,6 +30,22 @@ export const routeMap = [
     routeActive: ['/table'],
     permissions: [
       'table_page',
+    ]
+  },
+  {
+    label: 'Order',
+    icon: (
+      <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+        <g fill="currentColor">
+          <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" />
+          <path d="M14 10H6a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2zM10 6a1 1 0 0 0-1 1v6a1 1 0 0 0 2 0V7a1 1 0 0 0-1-1z" />
+        </g>
+      </svg>
+    ),
+    path: '/order',
+    routeActive: ['/order'],
+    permissions: [
+      'order_page',
     ]
   },
   {

@@ -15,7 +15,7 @@
   "plugins": ["react", "react-hooks"],
   "rules": {
     "react/prop-types": "off",
-    "no-console": 1,
+    "no-console": "off",
     "react/sort-comp": [1, {
       "order": [
         "type-annotations",

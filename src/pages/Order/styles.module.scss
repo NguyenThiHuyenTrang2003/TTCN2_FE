@@ -1,0 +1,144 @@
+.orderPageWrap {
+  padding: 20px;
+}
+
+.mainWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.headerMainWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.actionsWrap {
+  display: flex;
+  align-items: center;
+}
+
+.totalRecords {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.searchWrap {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.menuItemsWrap {
+  margin-top: 20px;
+}
+
+.menuList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menuItem {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.addItemButton {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #218838;
+  }
+}
+
+.orderItemsWrap {
+  margin-top: 30px;
+}
+
+.orderItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.quantityControl {
+  display: flex;
+  gap: 10px;
+}
+
+.quantityControl button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.orderSummaryWrap {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 2px solid #ddd;
+}
+
+.checkoutButton {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #e0a800;
+  }
+}
+
+.printButton {
+  padding: 10px 20px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #138496;
+  }
+}
